@@ -28,6 +28,13 @@ CREATE TABLE `p` (
 <details>
 <summary>2. 테이블 레코드 입력</summary>
 <div markdown="1">
+
+<img width="500" alt="스크린샷 2023-09-12 오후 4 48 51" src="https://github.com/YeoJiSu/DataBase/assets/76769044/423de4e6-ea42-4266-b995-bd80a249e67a">
+<img width="200" alt="스크린샷 2023-09-12 오후 4 48 31" src="https://github.com/YeoJiSu/DataBase/assets/76769044/77ca6c8d-5544-46fb-a116-f6823f28063a">
+<hr>
+<br>
+* 위의 표를 참고하여 아래와 같이 레코드 입력
+<br>
 <img width="280" alt="스크린샷 2023-09-12 오후 4 20 04" src="https://github.com/YeoJiSu/DataBase/assets/76769044/2802c4d4-940d-42dc-bbd8-00dca3853687">
 <img width="280" alt="스크린샷 2023-09-12 오후 4 20 20" src="https://github.com/YeoJiSu/DataBase/assets/76769044/f17ba5f0-dba2-4815-bc37-84fa785ef5a3">
 <img width="280" alt="스크린샷 2023-09-12 오후 4 20 37" src="https://github.com/YeoJiSu/DataBase/assets/76769044/bf7161ca-4c6e-4788-8f20-b77f43bf0028">
