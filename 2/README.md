@@ -13,5 +13,6 @@
 
 #### 보충 설명
 <img width="800" src="https://github.com/YeoJiSu/DataBase/blob/main/2/20230926.png">
+
 * 1대다는 테이블을 생성하지 않지만, 다대다는 테이블을 생성한다. 
 * identifying(실선)은 foreign 식별자를 생성하지만, non-identifying(점선)은 식별자를 생성하진 않는다. 단순 foriegn 속성을 생성한다. 
