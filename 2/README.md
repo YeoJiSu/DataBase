@@ -10,3 +10,8 @@
 - ed: 한 부서에는 여러 직원이 있다. 
 - ej: 한 프로젝트는 여러 직원이 담당할 수 있다. 
 - mj: 한 프로젝트에 대해 여러 직원 중 isManager == 1인 직원이 매니저 역할을 담당할 수 있다. 
+
+#### 보충 설명
+<img width="800" src="https://github.com/YeoJiSu/DataBase/blob/main/2/20230926.png">
+* 1대다는 테이블을 생성하지 않지만, 다대다는 테이블을 생성한다. 
+* identifying(실선)은 foreign 식별자를 생성하지만, non-identifying(점선)은 식별자를 생성하진 않는다. 단순 foriegn 속성을 생성한다. 
