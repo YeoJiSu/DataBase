@@ -77,7 +77,7 @@ select distinct jno from spj A where not exists (select * from spj B where B.sno
 select distinct pno from spj A where not exists ( -- 부품이 공급되는 경우 해당 부품의 부품 번호 출력
 select * from j where city = 'london' and not exists( -- 런던에 위치한 모든 프로젝트에 대해 
 select * from spj B where B.jno = j.jno and B.pno = A.pno));
--- 35. 모든 프로젝트에 같은 부품을 공급하는 공급자 번호를 출력하라.
+-- 35. 모든 프로젝트에 같은 부품을 공급하는 공급자 번호를 출력하라. ⭐️ ⭐️ 
 select distinct sno from spj A where exists ( -- 공급자 번호를 출력
 select pno from spj B where not exists ( -- 같은 부품을 공급하는
 select jno from j where not exists ( -- 모든 프로젝트에
