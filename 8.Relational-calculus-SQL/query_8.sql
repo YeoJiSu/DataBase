@@ -258,3 +258,24 @@ select pno from p where weight>16 and weight<19;
 select count(pno) from spj where pno='p2';
 -- 23. 한 명 이상의 공급자에 의해서 공급된 모든 부품의 부품 번호를 찾아라. 
 select pno from p where pno in (select pno from spj group by pno having count(sno)>=1);
+-- 24. 부품의 공급시에 수량이 300 이상인 공급 관계를 삭제하라.
+delete from spj where qty >= 300;
+-- 25. 부품 p2의 색상을 yellow로 바꾸고 무게는 5 증가하고 도시는 oslo로 변경하라.
+update p set color = 'yellow', weight = weight+5, city = 'oslo' where pno = 'p2';
+
+-- 8.7장
+-- 1. 부품의 무게가 12 ~ 15인 부품의 이름을 찾아라.
+select pname from p where weight>=12 and weight <= 15;
+-- 2. 부품의 이름이 b로 시작하는 부품의 도시를 찾아라. 
+select city from p where pname like "b%";
+-- 3. 두번째 글짜가 u인 부품이름의 도시를 찾아라.
+select city from p where pname like "_u%";
+
+-- 8.8장
+-- [insert 문]
+insert into s(sno, sname, status, city) values('s9','Hong',10, 'Busan');
+insert into s(sno, sname) values('s9','Hong');
+-- [update 문]
+update s set status = status + 10;
+-- [delete 문] 
+delete from s where city = 'London';
